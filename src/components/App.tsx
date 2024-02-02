@@ -15,7 +15,8 @@ const App = () => {
       </p>
       <div className="link-image-container">
         <p>
-          <a href="https://buntin.tech">Here</a>is a link to the home page
+          <a href="https://www.synthia-liz.com">Here</a>is a link to the home
+          page
         </p>
         <RandomMacchan />
       </div>
@@ -25,8 +26,9 @@ const App = () => {
 
 const RandomMacchan = () => {
   const macchanArray = [
-    'https://raw.buntin.xyz/%E3%81%BE%E3%81%A3%E3%81%8D%E3%82%93/sutozeromakkinSucare.png',
-    'https://raw.buntin.xyz/%E3%81%BE%E3%81%A3%E3%81%8D%E3%82%93/macsaikoukawaii.png',
+    //まっきん
+    'https://raw.buntin.xyz/まっきん/sutozeromakkinSucare.png',
+    'https://raw.buntin.xyz/まっきん/macsaikoukawaii.png',
   ];
   const randomMacchan =
     macchanArray[Math.floor(Math.random() * macchanArray.length)];

@@ -1,10 +1,10 @@
 import React from 'react';
-import info from '../../SYSTEMINFO.json';
+import info from '../../SYSTEM_INFO.json';
 
 const AboutSystem: React.FC = () => {
   return (
     <>
-      <p>System infomation</p>
+      <p>System information</p>
       <p>{`${info.NAME}  ${info.VERSION}`}</p>
     </>
   );

@@ -24,5 +24,5 @@ for line in os_info:
   result[parsed[0]] = parsed[1]
 os_info.close()
 
-with open('SYSTEMINFO.json', 'w') as outfile:
+with open('SYSTEM_INFO.json', 'w') as outfile:
   json.dump(result, outfile, indent=4)
